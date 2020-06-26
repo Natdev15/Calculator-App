@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="container">
+        <div class="name">
+            Casio
+        </div>
+        <div >
+<input id="screen" type="text" class="screen">
+        </div>
+        <div>
+            <input type="button" value="7" class="btn1" onclick="getNumb('7')">
+            <input type="button" value="8" class="btn1" onclick="getNumb('8')">
+            <input type="button" value="9" class="btn1" onclick="getNumb('9')">
+            <input type="button" value="clear" class="btn" onclick="clearResult('')">
+        </div>
+
+        <div>
+            <input type="button" value="4" class="btn1" onclick="getNumb('4')">
+            <input type="button" value="5" class="btn1" onclick="getNumb('5')">
+            <input type="button" value="6" class="btn1" onclick="getNumb('6')">
+            <input type="button" value="+" class="btn1" onclick="getNumb('+')">
+            <input type="button" value="-" class="btn1" onclick="getNumb('-')">
+            
+        </div>
+
+        <div>
+            <input type="button" value="1" class="btn1" onclick="getNumb('1')">
+            <input type="button" value="2" class="btn1" onclick="getNumb('2')">            
+            <input type="button" value="3" class="btn1" onclick="getNumb('3')">
+            <input type="button" value="x" class="btn1" onclick="getNumb('*')">
+            <input type="button" value="/" class="btn1" onclick="getNumb('/')">
+            
+        </div>
+
+        <div>
+            <input type="button" value="00" class="btn1" onclick="getNumb('00')">
+            <input type="button" value="0" class="btn1" onclick="getNumb('0')">
+            <input type="button" value="." class="btn1" onclick="getNumb('.')">
+            <input type="button" value="=" class="btn1" onclick="getResult()">
+            <input type="button" value="%" class="btn1" onclick="getNumb('%')">
+        </div>
+
+
+    </div>
+    
+
+
+    <script src="app.js" ></script>
+</body>
+</html>
